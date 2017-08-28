@@ -4,12 +4,30 @@
   "description": "React.js Mentoring Program 2017 ",
   "main": "index.js",
   "scripts": {
-    
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack --wd"
   },
   "author": "Aliaksei Bychyk",
   "license": "ISC",
   "repository": {
     "type": "git",
     "url": "https://github.com/AliakseiBychyk/react_cdp_2017_aliaksei_bychyk.git"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.5.0",
+    "eslint-plugin-react": "^7.3.0",
+    "nodemon": "^1.11.0",
+    "webpack": "^3.5.5"
   }
 }
