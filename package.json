@@ -1,0 +1,15 @@
+{
+  "name": "react_cdp_2017_aliaksei_bychyk",
+  "version": "1.0.0",
+  "description": "React.js Mentoring Program 2017 ",
+  "main": "index.js",
+  "scripts": {
+    
+  },
+  "author": "Aliaksei Bychyk",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AliakseiBychyk/react_cdp_2017_aliaksei_bychyk.git"
+  }
+}
