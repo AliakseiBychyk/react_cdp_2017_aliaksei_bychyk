@@ -20,8 +20,9 @@ module.exports={
       "error",
       "prefer-double"
     ],
+    "no-debugging": "off",
     "indent": ["error", 2],
-    "linebreak-style": ["error", "windows"],
+    "linebreak-style": ["error", "unix"],
     "quotes": ["error", "single"],
     "semi": ["error", "always"],
     "no-console": ["warn", { "allow": ["info", "error"] }],
