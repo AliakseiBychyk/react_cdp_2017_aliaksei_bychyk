@@ -6,9 +6,8 @@ const App = () => {
     <h2>Hello React asfaf fafadf with JSX</h2>
   );
 };
- 
+
 ReactDOM.render(
   <App />,
   document.getElementById('root')
 );
-
